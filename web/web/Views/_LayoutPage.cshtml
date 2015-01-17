@@ -12,20 +12,26 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">The Real World</a>
+        </div>
         <div>
-            <ul>
-                <li>Index </li>
-                <li>NatGeo Wild</li>
-                <li>Naked Science</li>
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">NatGeo Wild</a></li>
+                <li><a href="#">Naked Science</a></li>
             </ul>
         </div>
 
-        <div>
+        <div class="jumbotron">
             @RenderBody()
         </div>
 
-        <div></div>
+        <div class="row">
+            <div class="col-md-8" id="first-cat">Category 1</div>
+            <div class="col-md-4" id="second-cat">Category 2</div>
+        </div>
         <div> Copyright by Umineneneko @DateTime.Now.Year.ToString()</div>
     </div>
 </body>

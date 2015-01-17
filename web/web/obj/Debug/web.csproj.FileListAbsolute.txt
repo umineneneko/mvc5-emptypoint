@@ -23,3 +23,4 @@ C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web\bin\System.Web.Http
 C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web\bin\System.Web.Http.WebHost.xml
 C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web\obj\Debug\web.dll
 C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web\obj\Debug\web.pdb
+C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web\obj\Debug\web.csprojResolveAssemblyReference.cache
