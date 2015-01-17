@@ -3,12 +3,25 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link type="text/css" rel="stylesheet" href="~/Content/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/css/site.css" />
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    Main layout will be defined here, with boostrap :)
     <div>
-        @RenderBody()
+        <div>
+           <ul>
+               <li>Index               </li>
+               <li>NatGeo Wild</li>
+               <li>Naked Science</li>
+           </ul>
+        </div>
+
+        <div>
+            @RenderBody()
+        </div>
+
+        <div> Copyright by Umineneneko @DateTime.Now.Year.ToString()</div>
     </div>
 </body>
 </html>
