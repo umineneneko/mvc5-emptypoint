@@ -26,5 +26,13 @@ namespace web.Tests
             Assert.IsTrue(t.Name == null);
         }
 
+        [TestMethod]
+        public void Seeding()
+        {
+            TVDbContext m = new TVDbContext();
+            m.TVSeries.First();
+            Assert.IsTrue(m != null);
+        }
+
     }
 }

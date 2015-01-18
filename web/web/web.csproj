@@ -185,6 +185,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HelloWorldController.cs" />
+    <Compile Include="Controllers\TVSeriesController.cs" />
+    <Compile Include="DAL\InitializeDB.cs" />
     <Compile Include="DAL\TVDbContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -197,6 +199,11 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\TVSeries\Create.cshtml" />
+    <Content Include="Views\TVSeries\Delete.cshtml" />
+    <Content Include="Views\TVSeries\Details.cshtml" />
+    <Content Include="Views\TVSeries\Edit.cshtml" />
+    <Content Include="Views\TVSeries\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
