@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using web.DAL;
 using web.Models;
 
 namespace web.Tests
@@ -24,5 +25,6 @@ namespace web.Tests
             TVSeries t = new TVSeries();
             Assert.IsTrue(t.Name == null);
         }
+
     }
 }

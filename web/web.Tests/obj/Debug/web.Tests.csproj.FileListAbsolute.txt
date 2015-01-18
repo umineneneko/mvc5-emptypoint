@@ -23,3 +23,5 @@ C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web.Tests\bin\Debug\New
 C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web.Tests\obj\Debug\web.Tests.dll
 C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web.Tests\obj\Debug\web.Tests.pdb
+C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web.Tests\bin\Debug\EntityFramework.dll
+C:\Users\umineneneko\Desktop\NET 4.5\mvc5-emptypoint\web\web.Tests\bin\Debug\EntityFramework.xml
