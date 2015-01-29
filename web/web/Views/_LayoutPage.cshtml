@@ -524,6 +524,13 @@
                                     <strong>
                                         <a href="http://startbootstrap.com">Web Development</a>
                                     </strong>
+
+                                    <div>
+                                        @{
+                                            Disqus.Initialize("teeestonly");
+                                        }
+                                        @Disqus.ShowComments("{1}")
+                                    </div>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
